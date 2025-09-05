@@ -8,3 +8,29 @@ body {
     opacity: 0.9;
     text-align: center;
 }
+
+header {
+    height: 69px;
+    display: flex;
+    padding: 10px;
+    justify-content: space-between;
+    text-align: center;
+    border-bottom: 1px solid seashell;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+header ul {
+    list-style: none;
+}
+
+header li {
+    display: inline;
+    padding:  0px 10px;
+}
+
+header img {
+    height: 50px;
+}
