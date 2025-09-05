@@ -73,6 +73,11 @@ header a:hover {
 
 .info-img {
     width: 1000px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    padding: 40px 0;
+
 }
 
 .info-img img {
@@ -81,3 +86,8 @@ header a:hover {
     padding-bottom: 10px;
 }
 
+.top-row,
+.bottom-row {
+    display: flex;
+    justify-content: center;
+}
