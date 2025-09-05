@@ -9,6 +9,8 @@ body {
     text-align: center;
 }
 
+/* Header Section */
+
 header {
     height: 69px;
     display: flex;
@@ -33,4 +35,14 @@ header li {
 
 header img {
     height: 50px;
+}
+
+header a {
+    text-decoration: underline;
+    color: seashell;
+}
+
+header a:hover {
+    color: white;
+    text-decoration: none;
 }
