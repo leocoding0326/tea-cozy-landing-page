@@ -91,3 +91,16 @@ header a:hover {
     display: flex;
     justify-content: center;
 }
+
+/* Locations Section */
+
+.locations {
+    height: 500px;
+    background-image: url(./media/images/img-locations-background.jpg);
+    background-position: center;
+    display: flex;
+}
+
+.locations div {
+    display: flex;
+}
