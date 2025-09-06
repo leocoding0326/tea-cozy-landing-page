@@ -1,5 +1,6 @@
 /* Universal Rules */
 
+
 body {
     font-family: Helvetica, sans-serif;
     font-size: 22px;
@@ -13,8 +14,9 @@ body {
 
 header {
     height: 69px;
-    display: flex;
     padding: 0 10px;
+    background-color: black;
+    display: flex;
     justify-content: space-between;
     text-align: center;
     border-bottom: 1px solid seashell;
@@ -96,11 +98,28 @@ header a:hover {
 
 .locations {
     height: 500px;
+    width: 1200px;
+    margin: auto;
+    padding-bottom: 40px;
     background-image: url(./media/images/img-locations-background.jpg);
-    background-position: center;
     display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
-.locations div {
+.place-container {
     display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 15px;
+}
+
+.place {
+    width: 300px;
+    background-color: black;
+    opacity: 1;
+}
+
+.place p {
+    line-height: 3em;
 }
