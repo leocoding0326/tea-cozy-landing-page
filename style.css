@@ -79,19 +79,22 @@ header a:hover {
     flex-direction: column;
     margin: 0 auto;
     padding: 40px 0;
+    
 
 }
 
 .info-img img {
     height: 200px;
     width: 300px;
-    padding-bottom: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
 }
 
 .top-row,
 .bottom-row {
     display: flex;
     justify-content: center;
+    gap: 10px;
 }
 
 /* Locations Section */
@@ -118,6 +121,7 @@ header a:hover {
     width: 300px;
     background-color: black;
     opacity: 1;
+    border-radius: 20px;
 }
 
 .place p {
